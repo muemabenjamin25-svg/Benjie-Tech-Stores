@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cart | Benjie Tech Stores</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Your Shopping Cart</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="Cart.html">Cart</a>
+        <span class="cart">Cart: <span id="cartCount">0</span></span>
+    </nav>
+
+    
+    <main>
+        <div id="cartItems"></div>
+        <h3>Total: <span id="cartTotal">KSH 0</span></h3>
+        <div id="paymentContainer"></div>
+        <button onclick="checkoutViaWhatsApp()">Checkout via WhatsApp</button>
+    </main>
+
+    <footer>
+        <p>Contact: 0746664269 | Benjietech25@gmail.com</p>
+    </footer>
+
+   
+    <script src="script.js"></script>
+</body>
+
+</html>
