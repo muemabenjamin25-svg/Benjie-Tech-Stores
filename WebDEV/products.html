@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Products | Benjie Tech Stores</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Our Products</h1>
+    </header>
+    <nav>
+        <a href="Home.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="Cart.html">Cart</a>
+        <span class="cart">Cart: <span id="cartCount">0</span></span>
+    </nav>
+
+    <main class="products">
+        <article class="product">
+            <img src="phone.jpg.jpg" width="50" height="50" alt="Smartphone">
+            <h3>Smartphone</h3>
+            <p>Storage:128GB</p>
+            <p>RAM:4GB</p>
+            <p>KSH 25,000</p>
+            <button onclick="addToCart('Smartphone', 25000)">Add to Cart</button>
+        </article>
+
+        <article class="product">
+            <img src="laptop.jpg.jpg" width="50" height="50" alt="Laptop">
+            <h3>Laptop</h3>
+            <p>HP WINDOWS 11PRO</p>
+            <p>Storage:256GB</p>
+            <p>RAM:4GB</p>
+            <p>Generation:7</p>
+            <p>KSH 65,000</p>
+            <button onclick="addToCart('Laptop', 65000)">Add to Cart</button>
+        </article>
+
+        <article class="product">
+            <img src="headphone.jpg.jpg" width="50" height="50" alt="Headphones">
+            <h3>Headphones</h3>
+            <p>TWS</p>
+            <p>KSH 3,500</p>
+            <button onclick="addToCart('Headphones', 3500)">Add to Cart</button>
+        </article>
+
+        <article class="product">
+            <img src="television.jpg.jpg" width="100" height="50" alt="Smart TV">
+            <h3>Smart TV</h3>
+            <p>SAMSUNG: 42 INCHES</p>
+            <p>KSH 50,000</p>
+            <button onclick="addToCart('Smart TV', 50000)">Add to Cart</button>
+        </article>
+
+        <article class="product">
+            <img src="Woofer.jpg.jpg" width="30" height="60" alt="Woofer">
+            <h3>Woofers</h3>
+            <p>AILYONS+ELP2403K</p>
+            <p>KSH 15,000</p>
+            <button onclick="addToCart('Woofers', 15000)">Add to Cart</button>
+        </article>
+
+        <article class="product">
+            <img src="woofer.jpg.jpg" width="40" height="60" alt="Woofer">
+            <h3>Woofer</h3>
+            <p>AILYONS+SB601K</p>
+            <p>KSH 20,000</p>
+            <button onclick="addToCart('Woofer', 20000)">Add to Cart</button>
+        </article>
+
+        <article class="product">
+            <img src="watch.jpg.jpg" width="50" height="50" alt="Smartwatch">
+            <h3>Smart Watch</h3>
+            <p>S10 Ultra</p>
+            <p>KSH 4,500</p>
+            <button onclick="addToCart('Smart Watch', 4500)">Add to Cart</button>
+        </article>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
